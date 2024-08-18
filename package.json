@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "bun run index.ts",
+    "scraping": "bun run run/scraping.ts"
   },
   "keywords": [],
   "author": "",
