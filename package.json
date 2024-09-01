@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "bun run index.ts",
-    "scraping": "bun run run/scraping.ts"
+    "scraping": "bun run run/scraping.ts",
+    "ai": "bun run run/ai.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "@tensorflow/tfjs-node-gpu": "^4.20.0",
     "@types/bun": "latest",
     "@types/jsdom": "^21.1.7",
     "bun": "^1.1.24",
