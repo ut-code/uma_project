@@ -324,5 +324,6 @@ class ScrapingClient {
 
 export {
     ScrapingClient,
-    raceOption
+    raceOption,
+    uma_info,
 }

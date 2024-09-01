@@ -1,0 +1,63 @@
+import * as tf from '@tensorflow/tfjs';
+import * as fs from 'fs';
+
+// データの読み込み
+const loadData = async (filePath: string) => {
+    const data = await fs.promises.readFile(filePath, 'utf-8');
+    return JSON.parse(data);
+};
+
+// データの前処理
+const preprocessData = (data: any[]) => {
+    const xs: number[][] = [];
+    const ys: number[] = [];
+
+    data.forEach(item => {
+        // コース情報を数値に変換（例: A -> 0, B -> 1）
+        const course = item.course === 'A' ? 0 : 1;
+
+        xs.push([course, item.weight, item.age]);
+        ys.push(item.rank);
+    });
+
+    return {
+        xs: tf.tensor2d(xs),
+        ys: tf.tensor1d(ys)
+    };
+};
+
+// モデルの構築
+const createModel = () => {
+    const model = tf.sequential();
+    model.add(tf.layers.dense({ units: 10, activation: 'relu', inputShape: [3] }));
+    model.add(tf.layers.dense({ units: 1, activation: 'linear' }));
+    model.compile({ optimizer: 'adam', loss: 'meanSquaredError' });
+    return model;
+};
+
+// モデルのトレーニング
+const trainModel = async (model: tf.LayersModel, xs: tf.Tensor, ys: tf.Tensor) => {
+    await model.fit(xs, ys, { epochs: 100 });
+    console.log("モデルのトレーニングが完了しました");
+};
+
+// 予測の実行
+const predict = (model: tf.LayersModel, input: number[]) => {
+    const inputTensor = tf.tensor2d([input], [1, 3]);
+    const prediction = model.predict(inputTensor) as tf.Tensor;
+    prediction.print(); // 予測結果を表示
+};
+
+// メイン処理
+const main = async () => {
+    const data = await loadData('data.json');
+    const { xs, ys } = preprocessData(data);
+    const model = createModel();
+
+    await trainModel(model, xs, ys);
+
+    // 新しいデータの予測（例: コースB, 体重490, 年齢4）
+    predict(model, [1, 490, 4]);
+};
+
+main().catch(console.error);
