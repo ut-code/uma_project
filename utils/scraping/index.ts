@@ -4,7 +4,7 @@ import { JSDOM } from "jsdom"
 import fs from "fs"
 import path from "path"
 
-import { errorHandling } from "../utils/error"
+import { errorHandling } from "../error"
 
 type raceOption = {
     name?: string
@@ -31,6 +31,7 @@ type uma_info = {
 
 type race_json = {
     title: string
+    course: string
     url: string
     horse: uma_info[]
 }
@@ -72,7 +73,7 @@ class ScrapingClient {
                     const jra_data = await this.jra_race_result(race)
                     if (jra_data) {
                         const { pathname } = new URL(race)
-                        fs.writeFileSync(path.join(__dirname, `../db/jra/${pathname.replace("/", "").replaceAll("/", "-")}.json`), JSON.stringify(jra_data, null, "\t"))
+                        fs.writeFileSync(path.join(__dirname, `../../db/jra/${pathname.replace("/", "").replaceAll("/", "-")}.json`), JSON.stringify(jra_data, null, "\t"))
                     }
                 }
             }
@@ -229,6 +230,7 @@ class ScrapingClient {
             const data = iconv.decode(Buffer.from(await response.arrayBuffer()), "shift-jis")
             const dom = new JSDOM(data)
             const title = dom.window.document.querySelector("#race_result > div > table > caption > div.race_header > div > div.race_title > div > div.txt > h2 > span > span.race_name")
+            const course = dom.window.document.querySelector("#race_result > div > table > caption > div.race_header > div > div.race_title > div > div.txt > div > div.cell.course")
             const trs = dom.window.document.querySelectorAll("#race_result > div > table > tbody > tr")
     
             if (!title) {
@@ -237,9 +239,16 @@ class ScrapingClient {
             if (!title.childNodes[0].textContent) {
                 return null
             }
+            if (!course) {
+                return null
+            }
+            if (!course.textContent) {
+                return null
+            }
     
             let race_data = {
                 title: title.childNodes[0].textContent,
+                course: course.textContent.replaceAll("\\n", "").trim(),
                 url: url,
                 horse: []
             } as race_json

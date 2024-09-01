@@ -1,4 +1,4 @@
-import { ScrapingClient } from "./scraping/index"
+import { ScrapingClient } from "./utils/scraping/index"
 
 class MAIN {
     scraping: ScrapingClient
