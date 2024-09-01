@@ -1,4 +1,4 @@
-import tf from "@tensorflow/tfjs-node"
+import tf from "@tensorflow/tfjs-node-gpu"
 
 import fs from "fs"
 import path from "path"
