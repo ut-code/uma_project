@@ -30,6 +30,8 @@ type uma_info = {
 }
 
 type race_json = {
+    title: string
+    url: string
     horse: uma_info[]
 }
 
@@ -68,8 +70,10 @@ class ScrapingClient {
 
                 for (let race of race_list) {
                     const jra_data = await this.jra_race_result(race)
-                    const { pathname } = new URL(race)
-                    fs.writeFileSync(path.join(__dirname, `../db/jra/${pathname.replace("/", "").replaceAll("/", "-")}.json`), JSON.stringify(jra_data, null, "\t"))
+                    if (jra_data) {
+                        const { pathname } = new URL(race)
+                        fs.writeFileSync(path.join(__dirname, `../db/jra/${pathname.replace("/", "").replaceAll("/", "-")}.json`), JSON.stringify(jra_data, null, "\t"))
+                    }
                 }
             }
         }
@@ -211,31 +215,47 @@ class ScrapingClient {
         }
     }
     async jra_race_result(url: string) {
-        let race_data = {
-            horse: []
-        } as race_json
-        const response = await fetch(url, {
-            method: "GET",
-            headers: {
-                Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-                "Accept-Encoding": "gzip, deflate, br, zstd",
-                "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
-                "Cache-Control": "no-cache",
-                "user-agent": "Mozilla/5.0",
-            },
-        })
-        const data = iconv.decode(Buffer.from(await response.arrayBuffer()), "shift-jis")
-        const dom = new JSDOM(data)
-        const trs = dom.window.document.querySelectorAll("#race_result > div > table > tbody > tr")
-
-        for (let tr of trs) {
-            const info = await this.jra_get_info(tr)
-
-            if (info) {
-                race_data.horse.push(info)
+        try {
+            const response = await fetch(url, {
+                method: "GET",
+                headers: {
+                    Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                    "Accept-Encoding": "gzip, deflate, br, zstd",
+                    "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+                    "Cache-Control": "no-cache",
+                    "user-agent": "Mozilla/5.0",
+                },
+            })
+            const data = iconv.decode(Buffer.from(await response.arrayBuffer()), "shift-jis")
+            const dom = new JSDOM(data)
+            const title = dom.window.document.querySelector("#race_result > div > table > caption > div.race_header > div > div.race_title > div > div.txt > h2 > span > span.race_name")
+            const trs = dom.window.document.querySelectorAll("#race_result > div > table > tbody > tr")
+    
+            if (!title) {
+                return null
             }
+            if (!title.childNodes[0].textContent) {
+                return null
+            }
+    
+            let race_data = {
+                title: title.childNodes[0].textContent,
+                url: url,
+                horse: []
+            } as race_json
+    
+            for (let tr of trs) {
+                const info = await this.jra_get_info(tr)
+    
+                if (info) {
+                    race_data.horse.push(info)
+                }
+            }
+            return race_data
+        } catch (error) {
+            errorHandling(error)
+            return null
         }
-        return race_data
     }
     async jra_race_list(base_url: string, url: string) {
         const url_list = [] as string[]
