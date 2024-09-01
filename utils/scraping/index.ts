@@ -5,6 +5,7 @@ import fs from "fs"
 import path from "path"
 
 import { errorHandling } from "../error"
+import { half_width } from "../half-width"
 
 type raceOption = {
     name?: string
@@ -200,7 +201,7 @@ class ScrapingClient {
                 weight: weight.textContent,
                 jockey: jockey.textContent,
                 time: time.textContent,
-                margin: margin.textContent.replaceAll("\\n", "").trim(),
+                margin: half_width.replace(margin.textContent.replaceAll("\\n", "").trim()),
                 h_weight: Number(h_weight.childNodes[0].textContent.trim()),
                 h_weight_zougen: Number(span.textContent.replaceAll(/[()]/g, "").trim()),
                 f_time: f_time.textContent,
@@ -248,7 +249,7 @@ class ScrapingClient {
     
             let race_data = {
                 title: title.childNodes[0].textContent,
-                course: course.textContent.replaceAll("\\n", "").trim(),
+                course: half_width.replace(course.textContent.replaceAll("\\n", "").trim()),
                 url: url,
                 horse: []
             } as race_json
