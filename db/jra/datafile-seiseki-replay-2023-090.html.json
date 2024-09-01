@@ -1,0 +1,256 @@
+{
+	"horse": [
+		{
+			"rank": 1,
+			"waku": "枠5黄",
+			"umaban": 6,
+			"horse": "エルトンバローズ",
+			"age": "牡3",
+			"weight": "55.0",
+			"jockey": "西村 淳也",
+			"time": "1:45.3",
+			"margin": "",
+			"h_weight": 506,
+			"h_weight_zougen": 6,
+			"f_time": "33.8",
+			"trainer": "杉山 晴紀",
+			"pop": "4",
+			"corner": [
+				4,
+				4,
+				4
+			]
+		},
+		{
+			"rank": 2,
+			"waku": "枠7橙",
+			"umaban": 10,
+			"horse": "ソングライン",
+			"age": "牝5",
+			"weight": "57.0",
+			"jockey": "戸崎 圭太",
+			"time": "1:45.3",
+			"margin": "ハナ",
+			"h_weight": 490,
+			"h_weight_zougen": 10,
+			"f_time": "33.5",
+			"trainer": "林 徹",
+			"pop": "1",
+			"corner": [
+				4,
+				7,
+				6
+			]
+		},
+		{
+			"rank": 3,
+			"waku": "枠1白",
+			"umaban": 1,
+			"horse": "シュネルマイスター",
+			"age": "牡5",
+			"weight": "58.0",
+			"jockey": "C.ルメール",
+			"time": "1:45.3",
+			"margin": "ハナ",
+			"h_weight": 500,
+			"h_weight_zougen": 10,
+			"f_time": "33.3",
+			"trainer": "手塚 貴久",
+			"pop": "2",
+			"corner": [
+				9,
+				10,
+				10
+			]
+		},
+		{
+			"rank": 4,
+			"waku": "枠4青",
+			"umaban": 4,
+			"horse": "アドマイヤハダル",
+			"age": "牡5",
+			"weight": "57.0",
+			"jockey": "田辺 裕信",
+			"time": "1:45.4",
+			"margin": "アタマ",
+			"h_weight": 488,
+			"h_weight_zougen": -6,
+			"f_time": "33.1",
+			"trainer": "大久保 龍志",
+			"pop": "7",
+			"corner": [
+				11,
+				11,
+				11
+			]
+		},
+		{
+			"rank": 5,
+			"waku": "枠6緑",
+			"umaban": 7,
+			"horse": "ウインカーネリアン",
+			"age": "牡6",
+			"weight": "57.0",
+			"jockey": "三浦 皇成",
+			"time": "1:45.6",
+			"margin": "１ 1/2",
+			"h_weight": 508,
+			"h_weight_zougen": -2,
+			"f_time": "34.4",
+			"trainer": "鹿戸 雄一",
+			"pop": "5",
+			"corner": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"rank": 6,
+			"waku": "枠3赤",
+			"umaban": 3,
+			"horse": "ノースザワールド",
+			"age": "牡5",
+			"weight": "57.0",
+			"jockey": "横山 和生",
+			"time": "1:45.7",
+			"margin": "１／２",
+			"h_weight": 468,
+			"h_weight_zougen": -4,
+			"f_time": "33.9",
+			"trainer": "大久保 龍志",
+			"pop": "12",
+			"corner": [
+				7,
+				7,
+				6
+			]
+		},
+		{
+			"rank": 7,
+			"waku": "枠6緑",
+			"umaban": 8,
+			"horse": "ジャスティンカフェ",
+			"age": "牡5",
+			"weight": "57.0",
+			"jockey": "横山 典弘",
+			"time": "1:45.8",
+			"margin": "１／２",
+			"h_weight": 500,
+			"h_weight_zougen": -4,
+			"f_time": "33.2",
+			"trainer": "安田 翔伍",
+			"pop": "3",
+			"corner": [
+				12,
+				12,
+				12
+			]
+		},
+		{
+			"rank": 8,
+			"waku": "枠2黒",
+			"umaban": 2,
+			"horse": "エエヤン",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "M.デムーロ",
+			"time": "1:45.9",
+			"margin": "３／４",
+			"h_weight": 488,
+			"h_weight_zougen": 4,
+			"f_time": "34.3",
+			"trainer": "伊藤 大士",
+			"pop": "6",
+			"corner": [
+				3,
+				4,
+				4
+			]
+		},
+		{
+			"rank": 9,
+			"waku": "枠7橙",
+			"umaban": 9,
+			"horse": "バラジ",
+			"age": "牡4",
+			"weight": "57.0",
+			"jockey": "横山 武史",
+			"time": "1:46.0",
+			"margin": "１／２",
+			"h_weight": 512,
+			"h_weight_zougen": 6,
+			"f_time": "34.3",
+			"trainer": "鹿戸 雄一",
+			"pop": "10",
+			"corner": [
+				4,
+				7,
+				6
+			]
+		},
+		{
+			"rank": 10,
+			"waku": "枠5黄",
+			"umaban": 5,
+			"horse": "バビット",
+			"age": "牡6",
+			"weight": "57.0",
+			"jockey": "内田 博幸",
+			"time": "1:46.3",
+			"margin": "２",
+			"h_weight": 464,
+			"h_weight_zougen": -12,
+			"f_time": "35.0",
+			"trainer": "浜田 多実雄",
+			"pop": "9",
+			"corner": [
+				2,
+				2,
+				2
+			]
+		},
+		{
+			"rank": 11,
+			"waku": "枠8桃",
+			"umaban": 12,
+			"horse": "デュガ",
+			"age": "牡4",
+			"weight": "57.0",
+			"jockey": "川田 将雅",
+			"time": "1:46.7",
+			"margin": "２ 1/2",
+			"h_weight": 506,
+			"h_weight_zougen": -2,
+			"f_time": "35.0",
+			"trainer": "森 秀行",
+			"pop": "11",
+			"corner": [
+				9,
+				6,
+				6
+			]
+		},
+		{
+			"rank": 12,
+			"waku": "枠8桃",
+			"umaban": 11,
+			"horse": "フェーングロッテン",
+			"age": "牡4",
+			"weight": "57.0",
+			"jockey": "松若 風馬",
+			"time": "1:47.0",
+			"margin": "１ 1/2",
+			"h_weight": 472,
+			"h_weight_zougen": -2,
+			"f_time": "35.6",
+			"trainer": "宮本 博",
+			"pop": "8",
+			"corner": [
+				7,
+				2,
+				3
+			]
+		}
+	]
+}

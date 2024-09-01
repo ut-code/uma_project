@@ -1,0 +1,246 @@
+{
+	"horse": [
+		{
+			"rank": 1,
+			"waku": "枠7橙",
+			"umaban": 9,
+			"horse": "ジェミニキング",
+			"age": "せん7",
+			"weight": "60.0",
+			"jockey": "小野寺 祐太",
+			"time": "4:21.6",
+			"margin": "",
+			"h_weight": 478,
+			"h_weight_zougen": 2,
+			"f_time": "13.4",
+			"trainer": "服部 利之",
+			"pop": "10",
+			"corner": [
+				7,
+				8,
+				7,
+				5
+			]
+		},
+		{
+			"rank": 2,
+			"waku": "枠3赤",
+			"umaban": 3,
+			"horse": "ロードアクア",
+			"age": "牡7",
+			"weight": "60.0",
+			"jockey": "難波 剛健",
+			"time": "4:22.2",
+			"margin": "３ 1/2",
+			"h_weight": 484,
+			"h_weight_zougen": 4,
+			"f_time": "13.4",
+			"trainer": "中村 直也",
+			"pop": "4",
+			"corner": [
+				1,
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"rank": 3,
+			"waku": "枠2黒",
+			"umaban": 2,
+			"horse": "ニシノデイジー",
+			"age": "牡7",
+			"weight": "62.0",
+			"jockey": "石神 深一",
+			"time": "4:23.0",
+			"margin": "５",
+			"h_weight": 500,
+			"h_weight_zougen": -4,
+			"f_time": "13.5",
+			"trainer": "高木 登",
+			"pop": "1",
+			"corner": [
+				2,
+				2,
+				3,
+				2
+			]
+		},
+		{
+			"rank": 4,
+			"waku": "枠6緑",
+			"umaban": 7,
+			"horse": "ミッキーメテオ",
+			"age": "牡6",
+			"weight": "60.0",
+			"jockey": "五十嵐 雄祐",
+			"time": "4:23.1",
+			"margin": "３／４",
+			"h_weight": 514,
+			"h_weight_zougen": 0,
+			"f_time": "13.5",
+			"trainer": "西田 雄一郎",
+			"pop": "2",
+			"corner": [
+				2,
+				3,
+				3,
+				2
+			]
+		},
+		{
+			"rank": 5,
+			"waku": "枠8桃",
+			"umaban": 11,
+			"horse": "ゼノヴァース",
+			"age": "牡6",
+			"weight": "61.0",
+			"jockey": "森 一馬",
+			"time": "4:23.1",
+			"margin": "アタマ",
+			"h_weight": 464,
+			"h_weight_zougen": 4,
+			"f_time": "13.5",
+			"trainer": "小林 真也",
+			"pop": "3",
+			"corner": [
+				7,
+				5,
+				5,
+				6
+			]
+		},
+		{
+			"rank": 6,
+			"waku": "枠7橙",
+			"umaban": 10,
+			"horse": "マイネルレオーネ",
+			"age": "牡11",
+			"weight": "60.0",
+			"jockey": "小坂 忠士",
+			"time": "4:23.5",
+			"margin": "２",
+			"h_weight": 412,
+			"h_weight_zougen": 4,
+			"f_time": "13.5",
+			"trainer": "清水 久詞",
+			"pop": "8",
+			"corner": [
+				4,
+				3,
+				2,
+				2
+			]
+		},
+		{
+			"rank": 7,
+			"waku": "枠4青",
+			"umaban": 4,
+			"horse": "ポルトラーノ",
+			"age": "せん7",
+			"weight": "60.0",
+			"jockey": "蓑島 靖典",
+			"time": "4:24.0",
+			"margin": "３",
+			"h_weight": 494,
+			"h_weight_zougen": -2,
+			"f_time": "13.5",
+			"trainer": "萩原 清",
+			"pop": "9",
+			"corner": [
+				10,
+				10,
+				8,
+				7
+			]
+		},
+		{
+			"rank": 8,
+			"waku": "枠1白",
+			"umaban": 1,
+			"horse": "ケンホファヴァルト",
+			"age": "牡10",
+			"weight": "60.0",
+			"jockey": "熊沢 重文",
+			"time": "4:25.3",
+			"margin": "８",
+			"h_weight": 488,
+			"h_weight_zougen": 2,
+			"f_time": "13.6",
+			"trainer": "森 秀行",
+			"pop": "5",
+			"corner": [
+				5,
+				5,
+				5,
+				7
+			]
+		},
+		{
+			"rank": 9,
+			"waku": "枠6緑",
+			"umaban": 8,
+			"horse": "マーニ",
+			"age": "牡7",
+			"weight": "61.0",
+			"jockey": "小牧 加矢太",
+			"time": "4:26.0",
+			"margin": "４",
+			"h_weight": 464,
+			"h_weight_zougen": 6,
+			"f_time": "13.6",
+			"trainer": "鮫島 一歩",
+			"pop": "11",
+			"corner": [
+				9,
+				9,
+				9,
+				9
+			]
+		},
+		{
+			"rank": 10,
+			"waku": "枠5黄",
+			"umaban": 6,
+			"horse": "レオビヨンド",
+			"age": "牡7",
+			"weight": "60.0",
+			"jockey": "平沢 健治",
+			"time": "4:28.4",
+			"margin": "大差",
+			"h_weight": 508,
+			"h_weight_zougen": -4,
+			"f_time": "13.8",
+			"trainer": "高柳 大輔",
+			"pop": "7",
+			"corner": [
+				5,
+				5,
+				9,
+				10
+			]
+		},
+		{
+			"rank": 11,
+			"waku": "枠8桃",
+			"umaban": 12,
+			"horse": "マイネルパラディ",
+			"age": "せん9",
+			"weight": "60.0",
+			"jockey": "黒岩 悠",
+			"time": "4:29.2",
+			"margin": "５",
+			"h_weight": 476,
+			"h_weight_zougen": 6,
+			"f_time": "13.8",
+			"trainer": "吉田 直弘",
+			"pop": "12",
+			"corner": [
+				11,
+				11,
+				11,
+				11
+			]
+		}
+	]
+}

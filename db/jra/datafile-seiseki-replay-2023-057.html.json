@@ -1,0 +1,268 @@
+{
+	"horse": [
+		{
+			"rank": 1,
+			"waku": "枠7橙",
+			"umaban": 9,
+			"horse": "ジューンベロシティ",
+			"age": "牡5",
+			"weight": "60.0",
+			"jockey": "西谷 誠",
+			"time": "3:26.5",
+			"margin": "",
+			"h_weight": 472,
+			"h_weight_zougen": 0,
+			"f_time": "13.3",
+			"trainer": "武 英智",
+			"pop": "6",
+			"corner": [
+				9,
+				8,
+				5,
+				3
+			]
+		},
+		{
+			"rank": 2,
+			"waku": "枠4青",
+			"umaban": 4,
+			"horse": "メイショウアルト",
+			"age": "牡5",
+			"weight": "60.0",
+			"jockey": "平沢 健治",
+			"time": "3:26.7",
+			"margin": "１ 1/4",
+			"h_weight": 482,
+			"h_weight_zougen": 0,
+			"f_time": "13.3",
+			"trainer": "高橋 亮",
+			"pop": "4",
+			"corner": [
+				5,
+				5,
+				6,
+				6
+			]
+		},
+		{
+			"rank": 3,
+			"waku": "枠2黒",
+			"umaban": 2,
+			"horse": "トライフォーリアル",
+			"age": "せん6",
+			"weight": "60.0",
+			"jockey": "五十嵐 雄祐",
+			"time": "3:27.0",
+			"margin": "２",
+			"h_weight": 494,
+			"h_weight_zougen": 8,
+			"f_time": "13.3",
+			"trainer": "萩原 清",
+			"pop": "3",
+			"corner": [
+				3,
+				3,
+				3,
+				4
+			]
+		},
+		{
+			"rank": 4,
+			"waku": "枠8桃",
+			"umaban": 11,
+			"horse": "グレートバローズ",
+			"age": "牡6",
+			"weight": "60.0",
+			"jockey": "小坂 忠士",
+			"time": "3:27.7",
+			"margin": "４",
+			"h_weight": 488,
+			"h_weight_zougen": 4,
+			"f_time": "13.4",
+			"trainer": "辻野 泰之",
+			"pop": "5",
+			"corner": [
+				10,
+				10,
+				9,
+				9
+			]
+		},
+		{
+			"rank": 5,
+			"waku": "枠5黄",
+			"umaban": 5,
+			"horse": "ロードアクア",
+			"age": "牡7",
+			"weight": "60.0",
+			"jockey": "難波 剛健",
+			"time": "3:27.8",
+			"margin": "クビ",
+			"h_weight": 480,
+			"h_weight_zougen": -4,
+			"f_time": "13.4",
+			"trainer": "中村 直也",
+			"pop": "2",
+			"corner": [
+				1,
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"rank": 6,
+			"waku": "枠3赤",
+			"umaban": 3,
+			"horse": "エイシンクリック",
+			"age": "牡9",
+			"weight": "61.0",
+			"jockey": "北沢 伸也",
+			"time": "3:27.8",
+			"margin": "クビ",
+			"h_weight": 482,
+			"h_weight_zougen": 2,
+			"f_time": "13.4",
+			"trainer": "坂口 智康",
+			"pop": "7",
+			"corner": [
+				10,
+				11,
+				9,
+				9
+			]
+		},
+		{
+			"rank": 7,
+			"waku": "枠1白",
+			"umaban": 1,
+			"horse": "エミーリオ",
+			"age": "牡9",
+			"weight": "60.0",
+			"jockey": "草野 太郎",
+			"time": "3:28.1",
+			"margin": "１ 1/2",
+			"h_weight": 494,
+			"h_weight_zougen": 0,
+			"f_time": "13.4",
+			"trainer": "田中 剛",
+			"pop": "12",
+			"corner": [
+				12,
+				12,
+				11,
+				11
+			]
+		},
+		{
+			"rank": 8,
+			"waku": "枠5黄",
+			"umaban": 6,
+			"horse": "コウユーヌレエフ",
+			"age": "牡9",
+			"weight": "60.0",
+			"jockey": "大江原 圭",
+			"time": "3:28.1",
+			"margin": "クビ",
+			"h_weight": 512,
+			"h_weight_zougen": 12,
+			"f_time": "13.4",
+			"trainer": "斉藤 崇史",
+			"pop": "10",
+			"corner": [
+				3,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"rank": 9,
+			"waku": "枠7橙",
+			"umaban": 10,
+			"horse": "ホッコーメヴィウス",
+			"age": "せん7",
+			"weight": "60.0",
+			"jockey": "黒岩 悠",
+			"time": "3:28.6",
+			"margin": "２ 1/2",
+			"h_weight": 472,
+			"h_weight_zougen": -12,
+			"f_time": "13.4",
+			"trainer": "清水 久詞",
+			"pop": "1",
+			"corner": [
+				6,
+				6,
+				6,
+				7
+			]
+		},
+		{
+			"rank": 10,
+			"waku": "枠6緑",
+			"umaban": 8,
+			"horse": "マイネルヴァッサー",
+			"age": "牡10",
+			"weight": "60.0",
+			"jockey": "小野寺 祐太",
+			"time": "3:28.8",
+			"margin": "１ 1/2",
+			"h_weight": 434,
+			"h_weight_zougen": 4,
+			"f_time": "13.4",
+			"trainer": "土田 稔",
+			"pop": "11",
+			"corner": [
+				7,
+				7,
+				8,
+				7
+			]
+		},
+		{
+			"rank": 11,
+			"waku": "枠6緑",
+			"umaban": 7,
+			"horse": "ザメイダン",
+			"age": "牡7",
+			"weight": "60.0",
+			"jockey": "上野 翔",
+			"time": "3:29.6",
+			"margin": "５",
+			"h_weight": 488,
+			"h_weight_zougen": 2,
+			"f_time": "13.5",
+			"trainer": "新開 幸一",
+			"pop": "9",
+			"corner": [
+				2,
+				2,
+				2,
+				2
+			]
+		},
+		{
+			"rank": 12,
+			"waku": "枠8桃",
+			"umaban": 12,
+			"horse": "ハンディーズピーク",
+			"age": "牡5",
+			"weight": "60.0",
+			"jockey": "小牧 加矢太",
+			"time": "3:30.8",
+			"margin": "７",
+			"h_weight": 512,
+			"h_weight_zougen": -2,
+			"f_time": "13.6",
+			"trainer": "大久保 龍志",
+			"pop": "8",
+			"corner": [
+				8,
+				9,
+				12,
+				12
+			]
+		}
+	]
+}

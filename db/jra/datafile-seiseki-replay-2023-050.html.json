@@ -1,0 +1,364 @@
+{
+	"horse": [
+		{
+			"rank": 1,
+			"waku": "枠7橙",
+			"umaban": 15,
+			"horse": "モズメイメイ",
+			"age": "牝3",
+			"weight": "55.0",
+			"jockey": "武 豊",
+			"time": "1:07.1",
+			"margin": "",
+			"h_weight": 466,
+			"h_weight_zougen": 10,
+			"f_time": "33.2",
+			"trainer": "音無 秀孝",
+			"pop": "4",
+			"corner": [
+				1,
+				1
+			]
+		},
+		{
+			"rank": 2,
+			"waku": "枠1白",
+			"umaban": 1,
+			"horse": "ルガル",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "団野 大成",
+			"time": "1:07.2",
+			"margin": "１／２",
+			"h_weight": 512,
+			"h_weight_zougen": 0,
+			"f_time": "32.7",
+			"trainer": "杉山 晴紀",
+			"pop": "2",
+			"corner": [
+				6,
+				5
+			]
+		},
+		{
+			"rank": 3,
+			"waku": "枠1白",
+			"umaban": 2,
+			"horse": "ビッグシーザー",
+			"age": "牡3",
+			"weight": "57.0",
+			"jockey": "幸 英明",
+			"time": "1:07.2",
+			"margin": "クビ",
+			"h_weight": 508,
+			"h_weight_zougen": 6,
+			"f_time": "33.0",
+			"trainer": "西園 正都",
+			"pop": "1",
+			"corner": [
+				4,
+				4
+			]
+		},
+		{
+			"rank": 4,
+			"waku": "枠8桃",
+			"umaban": 17,
+			"horse": "ブーケファロス",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "松山 弘平",
+			"time": "1:07.4",
+			"margin": "１ 1/4",
+			"h_weight": 434,
+			"h_weight_zougen": -4,
+			"f_time": "32.5",
+			"trainer": "清水 英克",
+			"pop": "7",
+			"corner": [
+				9,
+				9
+			]
+		},
+		{
+			"rank": 5,
+			"waku": "枠4青",
+			"umaban": 7,
+			"horse": "アームズレイン",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "北村 友一",
+			"time": "1:07.6",
+			"margin": "１",
+			"h_weight": 482,
+			"h_weight_zougen": -4,
+			"f_time": "33.2",
+			"trainer": "上村 洋行",
+			"pop": "11",
+			"corner": [
+				5,
+				5
+			]
+		},
+		{
+			"rank": 6,
+			"waku": "枠7橙",
+			"umaban": 14,
+			"horse": "トラベログ",
+			"age": "牝3",
+			"weight": "54.0",
+			"jockey": "富田 暁",
+			"time": "1:07.6",
+			"margin": "ハナ",
+			"h_weight": 462,
+			"h_weight_zougen": 6,
+			"f_time": "33.1",
+			"trainer": "岩戸 孝樹",
+			"pop": "16",
+			"corner": [
+				6,
+				5
+			]
+		},
+		{
+			"rank": 7,
+			"waku": "枠6緑",
+			"umaban": 11,
+			"horse": "テラステラ",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "岩田 康誠",
+			"time": "1:07.6",
+			"margin": "クビ",
+			"h_weight": 474,
+			"h_weight_zougen": 0,
+			"f_time": "32.6",
+			"trainer": "矢作 芳人",
+			"pop": "6",
+			"corner": [
+				11,
+				11
+			]
+		},
+		{
+			"rank": 8,
+			"waku": "枠5黄",
+			"umaban": 10,
+			"horse": "カンチェンジュンガ",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "藤岡 康太",
+			"time": "1:07.8",
+			"margin": "１",
+			"h_weight": 464,
+			"h_weight_zougen": -2,
+			"f_time": "32.7",
+			"trainer": "庄野 靖志",
+			"pop": "10",
+			"corner": [
+				13,
+				13
+			]
+		},
+		{
+			"rank": 9,
+			"waku": "枠8桃",
+			"umaban": 18,
+			"horse": "タマモブラックタイ",
+			"age": "牡3",
+			"weight": "57.0",
+			"jockey": "角田 大和",
+			"time": "1:07.8",
+			"margin": "アタマ",
+			"h_weight": 514,
+			"h_weight_zougen": 0,
+			"f_time": "33.7",
+			"trainer": "角田 晃一",
+			"pop": "5",
+			"corner": [
+				2,
+				2
+			]
+		},
+		{
+			"rank": 10,
+			"waku": "枠2黒",
+			"umaban": 3,
+			"horse": "メイショウピース",
+			"age": "牝3",
+			"weight": "54.0",
+			"jockey": "秋山 真一郎",
+			"time": "1:07.8",
+			"margin": "アタマ",
+			"h_weight": 462,
+			"h_weight_zougen": -2,
+			"f_time": "33.0",
+			"trainer": "高橋 亮",
+			"pop": "15",
+			"corner": [
+				9,
+				9
+			]
+		},
+		{
+			"rank": 11,
+			"waku": "枠3赤",
+			"umaban": 6,
+			"horse": "ヤクシマ",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "池添 謙一",
+			"time": "1:07.9",
+			"margin": "クビ",
+			"h_weight": 498,
+			"h_weight_zougen": -10,
+			"f_time": "33.2",
+			"trainer": "寺島 良",
+			"pop": "9",
+			"corner": [
+				8,
+				8
+			]
+		},
+		{
+			"rank": 12,
+			"waku": "枠5黄",
+			"umaban": 9,
+			"horse": "コーパスクリスティ",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "西村 淳也",
+			"time": "1:08.2",
+			"margin": "１ 3/4",
+			"h_weight": 460,
+			"h_weight_zougen": 4,
+			"f_time": "33.2",
+			"trainer": "中内田 充正",
+			"pop": "14",
+			"corner": [
+				11,
+				11
+			]
+		},
+		{
+			"rank": 13,
+			"waku": "枠7橙",
+			"umaban": 13,
+			"horse": "タツダイヤモンド",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "菱田 裕二",
+			"time": "1:08.2",
+			"margin": "ハナ",
+			"h_weight": 476,
+			"h_weight_zougen": -2,
+			"f_time": "32.5",
+			"trainer": "鮫島 一歩",
+			"pop": "13",
+			"corner": [
+				18,
+				18
+			]
+		},
+		{
+			"rank": 14,
+			"waku": "枠2黒",
+			"umaban": 4,
+			"horse": "トールキン",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "吉田 隼人",
+			"time": "1:08.4",
+			"margin": "１ 1/4",
+			"h_weight": 490,
+			"h_weight_zougen": -4,
+			"f_time": "33.1",
+			"trainer": "西園 正都",
+			"pop": "8",
+			"corner": [
+				13,
+				14
+			]
+		},
+		{
+			"rank": 15,
+			"waku": "枠6緑",
+			"umaban": 12,
+			"horse": "エレガントムーン",
+			"age": "牝3",
+			"weight": "54.0",
+			"jockey": "鮫島 克駿",
+			"time": "1:08.5",
+			"margin": "１／２",
+			"h_weight": 422,
+			"h_weight_zougen": 6,
+			"f_time": "33.0",
+			"trainer": "牧浦 充徳",
+			"pop": "17",
+			"corner": [
+				16,
+				16
+			]
+		},
+		{
+			"rank": 16,
+			"waku": "枠3赤",
+			"umaban": 5,
+			"horse": "ペースセッティング",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "横山 和生",
+			"time": "1:08.5",
+			"margin": "クビ",
+			"h_weight": 484,
+			"h_weight_zougen": -2,
+			"f_time": "33.0",
+			"trainer": "安田 隆行",
+			"pop": "3",
+			"corner": [
+				16,
+				16
+			]
+		},
+		{
+			"rank": 17,
+			"waku": "枠4青",
+			"umaban": 8,
+			"horse": "アンビバレント",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "斎藤 新",
+			"time": "1:08.9",
+			"margin": "２",
+			"h_weight": 454,
+			"h_weight_zougen": -4,
+			"f_time": "34.8",
+			"trainer": "青木 孝文",
+			"pop": "12",
+			"corner": [
+				2,
+				2
+			]
+		},
+		{
+			"rank": 18,
+			"waku": "枠8桃",
+			"umaban": 16,
+			"horse": "コスモイグローク",
+			"age": "牡3",
+			"weight": "56.0",
+			"jockey": "丹内 祐次",
+			"time": "1:09.1",
+			"margin": "１ 1/4",
+			"h_weight": 500,
+			"h_weight_zougen": -2,
+			"f_time": "33.8",
+			"trainer": "宗形 竹見",
+			"pop": "18",
+			"corner": [
+				13,
+				15
+			]
+		}
+	]
+}

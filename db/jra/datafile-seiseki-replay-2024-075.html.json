@@ -1,0 +1,224 @@
+{
+	"horse": [
+		{
+			"rank": 1,
+			"waku": "枠7橙",
+			"umaban": 9,
+			"horse": "トータルクラリティ",
+			"age": "牡2",
+			"weight": "55.0",
+			"jockey": "北村 友一",
+			"time": "1:34.2",
+			"margin": "",
+			"h_weight": 462,
+			"h_weight_zougen": 8,
+			"f_time": "34.0",
+			"trainer": "池添 学",
+			"pop": "6",
+			"corner": [
+				3,
+				4
+			]
+		},
+		{
+			"rank": 2,
+			"waku": "枠6緑",
+			"umaban": 6,
+			"horse": "コートアリシアン",
+			"age": "牝2",
+			"weight": "55.0",
+			"jockey": "菅原 明良",
+			"time": "1:34.3",
+			"margin": "１／２",
+			"h_weight": 434,
+			"h_weight_zougen": -4,
+			"f_time": "33.9",
+			"trainer": "伊藤 大士",
+			"pop": "1",
+			"corner": [
+				5,
+				5
+			]
+		},
+		{
+			"rank": 3,
+			"waku": "枠8桃",
+			"umaban": 10,
+			"horse": "プロクレイア",
+			"age": "牝2",
+			"weight": "55.0",
+			"jockey": "津村 明秀",
+			"time": "1:34.8",
+			"margin": "３",
+			"h_weight": 462,
+			"h_weight_zougen": 6,
+			"f_time": "34.0",
+			"trainer": "小林 真也",
+			"pop": "5",
+			"corner": [
+				10,
+				10
+			]
+		},
+		{
+			"rank": 4,
+			"waku": "枠7橙",
+			"umaban": 8,
+			"horse": "マジカルフェアリー",
+			"age": "牝2",
+			"weight": "55.0",
+			"jockey": "和田 竜二",
+			"time": "1:34.8",
+			"margin": "クビ",
+			"h_weight": 442,
+			"h_weight_zougen": 10,
+			"f_time": "34.1",
+			"trainer": "寺島 良",
+			"pop": "7",
+			"corner": [
+				8,
+				8
+			]
+		},
+		{
+			"rank": 5,
+			"waku": "枠1白",
+			"umaban": 1,
+			"horse": "ジョリーレーヌ",
+			"age": "牝2",
+			"weight": "55.0",
+			"jockey": "石川 裕紀人",
+			"time": "1:35.0",
+			"margin": "３／４",
+			"h_weight": 424,
+			"h_weight_zougen": 2,
+			"f_time": "34.4",
+			"trainer": "大竹 正博",
+			"pop": "4",
+			"corner": [
+				8,
+				8
+			]
+		},
+		{
+			"rank": 6,
+			"waku": "枠3赤",
+			"umaban": 3,
+			"horse": "スターウェーブ",
+			"age": "牡2",
+			"weight": "55.0",
+			"jockey": "三浦 皇成",
+			"time": "1:35.3",
+			"margin": "１ 3/4",
+			"h_weight": 474,
+			"h_weight_zougen": 2,
+			"f_time": "35.0",
+			"trainer": "武井 亮",
+			"pop": "3",
+			"corner": [
+				5,
+				5
+			]
+		},
+		{
+			"rank": 7,
+			"waku": "枠2黒",
+			"umaban": 2,
+			"horse": "スリールミニョン",
+			"age": "牝2",
+			"weight": "55.0",
+			"jockey": "永島 まなみ",
+			"time": "1:35.4",
+			"margin": "１／２",
+			"h_weight": 434,
+			"h_weight_zougen": 2,
+			"f_time": "35.3",
+			"trainer": "高橋 康之",
+			"pop": "10",
+			"corner": [
+				3,
+				3
+			]
+		},
+		{
+			"rank": 8,
+			"waku": "枠8桃",
+			"umaban": 11,
+			"horse": "キタノクニカラ",
+			"age": "牝2",
+			"weight": "55.0",
+			"jockey": "杉原 誠人",
+			"time": "1:35.5",
+			"margin": "３／４",
+			"h_weight": 400,
+			"h_weight_zougen": 0,
+			"f_time": "34.7",
+			"trainer": "小島 茂之",
+			"pop": "9",
+			"corner": [
+				11,
+				10
+			]
+		},
+		{
+			"rank": 9,
+			"waku": "枠4青",
+			"umaban": 4,
+			"horse": "シンフォーエバー",
+			"age": "牡2",
+			"weight": "55.0",
+			"jockey": "岩田 康誠",
+			"time": "1:35.5",
+			"margin": "クビ",
+			"h_weight": 496,
+			"h_weight_zougen": 2,
+			"f_time": "35.8",
+			"trainer": "森 秀行",
+			"pop": "2",
+			"corner": [
+				1,
+				1
+			]
+		},
+		{
+			"rank": 10,
+			"waku": "枠6緑",
+			"umaban": 7,
+			"horse": "ケイテンアイジン",
+			"age": "牡2",
+			"weight": "55.0",
+			"jockey": "丸山 元気",
+			"time": "1:35.5",
+			"margin": "クビ",
+			"h_weight": 480,
+			"h_weight_zougen": 4,
+			"f_time": "35.5",
+			"trainer": "谷 潔",
+			"pop": "8",
+			"corner": [
+				2,
+				2
+			]
+		},
+		{
+			"rank": 11,
+			"waku": "枠5黄",
+			"umaban": 5,
+			"horse": "モジャーリオ",
+			"age": "牡2",
+			"weight": "55.0",
+			"jockey": "斎藤 新",
+			"time": "1:35.7",
+			"margin": "３／４",
+			"h_weight": 454,
+			"h_weight_zougen": 6,
+			"f_time": "35.4",
+			"trainer": "斎藤 誠",
+			"pop": "11",
+			"corner": [
+				5,
+				5
+			]
+		}
+	]
+}

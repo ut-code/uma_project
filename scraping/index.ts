@@ -3,11 +3,34 @@ import { JSDOM } from "jsdom"
 
 import fs from "fs"
 import path from "path"
+
 import { errorHandling } from "../utils/error"
 
 type raceOption = {
     name?: string
     races?: string[]
+}
+
+type uma_info = {
+    rank: number
+    waku: string
+    umaban: number
+    horse: string
+    age: string
+    weight: string
+    jockey: string
+    time: string
+    margin: string
+    h_weight: number
+    h_weight_zougen: number
+    f_time: string
+    trainer: string
+    pop: string
+    corner: number[]
+}
+
+type race_json = {
+    horse: uma_info[]
 }
 
 class ScrapingClient {
@@ -44,8 +67,9 @@ class ScrapingClient {
                 const race_list = await this.jra_race_list(base_url, race_url)
 
                 for (let race of race_list) {
-                    console.log(race)
-                    await this.jra_race_result(race)
+                    const jra_data = await this.jra_race_result(race)
+                    const { pathname } = new URL(race)
+                    fs.writeFileSync(path.join(__dirname, `../db/jra/${pathname.replace("/", "").replaceAll("/", "-")}.json`), JSON.stringify(jra_data, null, "\t"))
                 }
             }
         }
@@ -91,13 +115,25 @@ class ScrapingClient {
             if (!age) {
                 return null
             }
+            if (!age.textContent) {
+                return null
+            }
             if (!weight) {
+                return null
+            }
+            if (!weight.textContent) {
                 return null
             }
             if (!jockey) {
                 return null
             }
+            if (!jockey.textContent) {
+                return null
+            }
             if (!time) {
+                return null
+            }
+            if (!time.textContent) {
                 return null
             }
             if (!margin) {
@@ -118,10 +154,19 @@ class ScrapingClient {
             if (!f_time) {
                 return null
             }
+            if (!f_time.textContent) {
+                return null
+            }
             if (!trainer) {
                 return null
             }
+            if (!trainer.textContent) {
+                return null
+            }
             if (!pop) {
+                return null
+            }
+            if (!pop.textContent) {
                 return null
             }
  
@@ -157,9 +202,8 @@ class ScrapingClient {
                 trainer: trainer.textContent,
                 pop: pop.textContent,
                 corner: corner_list,
-            }
-    
-            console.log(info)
+            } satisfies uma_info
+
             return info
         } catch (error) {
             errorHandling(error)
@@ -167,6 +211,9 @@ class ScrapingClient {
         }
     }
     async jra_race_result(url: string) {
+        let race_data = {
+            horse: []
+        } as race_json
         const response = await fetch(url, {
             method: "GET",
             headers: {
@@ -182,8 +229,13 @@ class ScrapingClient {
         const trs = dom.window.document.querySelectorAll("#race_result > div > table > tbody > tr")
 
         for (let tr of trs) {
-            await this.jra_get_info(tr)
+            const info = await this.jra_get_info(tr)
+
+            if (info) {
+                race_data.horse.push(info)
+            }
         }
+        return race_data
     }
     async jra_race_list(base_url: string, url: string) {
         const url_list = [] as string[]

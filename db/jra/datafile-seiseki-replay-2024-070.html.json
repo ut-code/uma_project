@@ -1,0 +1,268 @@
+{
+	"horse": [
+		{
+			"rank": 1,
+			"waku": "枠1白",
+			"umaban": 1,
+			"horse": "リフレーミング",
+			"age": "牡6",
+			"weight": "57.0",
+			"jockey": "川田 将雅",
+			"time": "1:56.5",
+			"margin": "レコード",
+			"h_weight": 466,
+			"h_weight_zougen": -4,
+			"f_time": "34.1",
+			"trainer": "鮫島 一歩",
+			"pop": "1",
+			"corner": [
+				8,
+				8,
+				8,
+				8
+			]
+		},
+		{
+			"rank": 2,
+			"waku": "枠7橙",
+			"umaban": 10,
+			"horse": "コスタボニータ",
+			"age": "牝5",
+			"weight": "56.0",
+			"jockey": "坂井 瑠星",
+			"time": "1:56.6",
+			"margin": "クビ",
+			"h_weight": 476,
+			"h_weight_zougen": -4,
+			"f_time": "35.2",
+			"trainer": "杉山 佳明",
+			"pop": "4",
+			"corner": [
+				2,
+				2,
+				2,
+				2
+			]
+		},
+		{
+			"rank": 3,
+			"waku": "枠8桃",
+			"umaban": 11,
+			"horse": "ディープモンスター",
+			"age": "牡6",
+			"weight": "58.5",
+			"jockey": "浜中 俊",
+			"time": "1:56.7",
+			"margin": "３／４",
+			"h_weight": 464,
+			"h_weight_zougen": -4,
+			"f_time": "34.5",
+			"trainer": "池江 泰寿",
+			"pop": "2",
+			"corner": [
+				6,
+				6,
+				6,
+				6
+			]
+		},
+		{
+			"rank": 4,
+			"waku": "枠5黄",
+			"umaban": 5,
+			"horse": "ヴェローナシチー",
+			"age": "牡5",
+			"weight": "54.0",
+			"jockey": "団野 大成",
+			"time": "1:56.8",
+			"margin": "１／２",
+			"h_weight": 508,
+			"h_weight_zougen": -12,
+			"f_time": "34.9",
+			"trainer": "佐々木 晶三",
+			"pop": "8",
+			"corner": [
+				5,
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"rank": 5,
+			"waku": "枠8桃",
+			"umaban": 12,
+			"horse": "セントカメリア",
+			"age": "牝5",
+			"weight": "53.0",
+			"jockey": "幸 英明",
+			"time": "1:56.8",
+			"margin": "クビ",
+			"h_weight": 454,
+			"h_weight_zougen": 4,
+			"f_time": "34.1",
+			"trainer": "高野 友和",
+			"pop": "9",
+			"corner": [
+				11,
+				11,
+				10,
+				10
+			]
+		},
+		{
+			"rank": 6,
+			"waku": "枠2黒",
+			"umaban": 2,
+			"horse": "グランスラムアスク",
+			"age": "牝5",
+			"weight": "52.0",
+			"jockey": "永島 まなみ",
+			"time": "1:56.9",
+			"margin": "１／２",
+			"h_weight": 474,
+			"h_weight_zougen": 6,
+			"f_time": "34.7",
+			"trainer": "矢作 芳人",
+			"pop": "10",
+			"corner": [
+				6,
+				6,
+				6,
+				6
+			]
+		},
+		{
+			"rank": 7,
+			"waku": "枠3赤",
+			"umaban": 3,
+			"horse": "レッドランメルト",
+			"age": "牡5",
+			"weight": "56.0",
+			"jockey": "吉田 豊",
+			"time": "1:57.0",
+			"margin": "３／４",
+			"h_weight": 504,
+			"h_weight_zougen": -12,
+			"f_time": "34.3",
+			"trainer": "国枝 栄",
+			"pop": "6",
+			"corner": [
+				12,
+				12,
+				12,
+				10
+			]
+		},
+		{
+			"rank": 8,
+			"waku": "枠7橙",
+			"umaban": 9,
+			"horse": "ファユエン",
+			"age": "牝6",
+			"weight": "53.0",
+			"jockey": "菊沢 一樹",
+			"time": "1:57.2",
+			"margin": "１",
+			"h_weight": 470,
+			"h_weight_zougen": 6,
+			"f_time": "34.7",
+			"trainer": "勢司 和浩",
+			"pop": "5",
+			"corner": [
+				9,
+				9,
+				8,
+				8
+			]
+		},
+		{
+			"rank": 9,
+			"waku": "枠6緑",
+			"umaban": 7,
+			"horse": "シリウスコルト",
+			"age": "牡3",
+			"weight": "54.0",
+			"jockey": "西村 淳也",
+			"time": "1:57.3",
+			"margin": "３／４",
+			"h_weight": 478,
+			"h_weight_zougen": 0,
+			"f_time": "35.6",
+			"trainer": "宗像 義忠",
+			"pop": "3",
+			"corner": [
+				3,
+				3,
+				3,
+				3
+			]
+		},
+		{
+			"rank": 10,
+			"waku": "枠4青",
+			"umaban": 4,
+			"horse": "メモリーレゾン",
+			"age": "牝5",
+			"weight": "54.0",
+			"jockey": "古川 吉洋",
+			"time": "1:57.4",
+			"margin": "クビ",
+			"h_weight": 456,
+			"h_weight_zougen": -4,
+			"f_time": "35.7",
+			"trainer": "長谷川 浩大",
+			"pop": "7",
+			"corner": [
+				3,
+				4,
+				3,
+				3
+			]
+		},
+		{
+			"rank": 11,
+			"waku": "枠5黄",
+			"umaban": 6,
+			"horse": "テーオーシリウス",
+			"age": "牡6",
+			"weight": "54.0",
+			"jockey": "酒井 学",
+			"time": "1:58.0",
+			"margin": "３ 1/2",
+			"h_weight": 458,
+			"h_weight_zougen": -12,
+			"f_time": "37.0",
+			"trainer": "奥村 豊",
+			"pop": "11",
+			"corner": [
+				1,
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"rank": 12,
+			"waku": "枠6緑",
+			"umaban": 8,
+			"horse": "コスモカレンドゥラ",
+			"age": "牡8",
+			"weight": "53.0",
+			"jockey": "和田 竜二",
+			"time": "1:58.1",
+			"margin": "１／２",
+			"h_weight": 478,
+			"h_weight_zougen": 6,
+			"f_time": "35.4",
+			"trainer": "粕谷 昌央",
+			"pop": "12",
+			"corner": [
+				10,
+				10,
+				10,
+				10
+			]
+		}
+	]
+}

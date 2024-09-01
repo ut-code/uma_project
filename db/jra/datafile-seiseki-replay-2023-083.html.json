@@ -1,0 +1,312 @@
+{
+	"horse": [
+		{
+			"rank": 1,
+			"waku": "枠7橙",
+			"umaban": 11,
+			"horse": "ジューンベロシティ",
+			"age": "牡5",
+			"weight": "60.0",
+			"jockey": "西谷 誠",
+			"time": "3:25.7",
+			"margin": "",
+			"h_weight": 472,
+			"h_weight_zougen": 0,
+			"f_time": "13.1",
+			"trainer": "武 英智",
+			"pop": "1",
+			"corner": [
+				2,
+				2,
+				2,
+				2
+			]
+		},
+		{
+			"rank": 2,
+			"waku": "枠2黒",
+			"umaban": 2,
+			"horse": "ホッコーメヴィウス",
+			"age": "せん7",
+			"weight": "60.0",
+			"jockey": "平沢 健治",
+			"time": "3:26.0",
+			"margin": "２",
+			"h_weight": 484,
+			"h_weight_zougen": 8,
+			"f_time": "13.1",
+			"trainer": "清水 久詞",
+			"pop": "4",
+			"corner": [
+				1,
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"rank": 3,
+			"waku": "枠1白",
+			"umaban": 1,
+			"horse": "ネビーイーム",
+			"age": "牡5",
+			"weight": "60.0",
+			"jockey": "小牧 加矢太",
+			"time": "3:26.7",
+			"margin": "４",
+			"h_weight": 536,
+			"h_weight_zougen": 12,
+			"f_time": "13.2",
+			"trainer": "佐々木 晶三",
+			"pop": "3",
+			"corner": [
+				4,
+				4,
+				3,
+				3
+			]
+		},
+		{
+			"rank": 4,
+			"waku": "枠8桃",
+			"umaban": 14,
+			"horse": "エイシンクリック",
+			"age": "牡9",
+			"weight": "61.0",
+			"jockey": "小野寺 祐太",
+			"time": "3:27.7",
+			"margin": "６",
+			"h_weight": 476,
+			"h_weight_zougen": -6,
+			"f_time": "13.2",
+			"trainer": "坂口 智康",
+			"pop": "8",
+			"corner": [
+				8,
+				8,
+				5,
+				4
+			]
+		},
+		{
+			"rank": 5,
+			"waku": "枠3赤",
+			"umaban": 3,
+			"horse": "ニンギルス",
+			"age": "牡6",
+			"weight": "60.0",
+			"jockey": "難波 剛健",
+			"time": "3:29.2",
+			"margin": "９",
+			"h_weight": 458,
+			"h_weight_zougen": 0,
+			"f_time": "13.3",
+			"trainer": "鈴木 孝志",
+			"pop": "10",
+			"corner": [
+				5,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"rank": 6,
+			"waku": "枠6緑",
+			"umaban": 9,
+			"horse": "セルリアンルネッタ",
+			"age": "牡4",
+			"weight": "60.0",
+			"jockey": "金子 光希",
+			"time": "3:29.8",
+			"margin": "４",
+			"h_weight": 468,
+			"h_weight_zougen": 10,
+			"f_time": "13.4",
+			"trainer": "高橋 康之",
+			"pop": "12",
+			"corner": [
+				10,
+				10,
+				8,
+				8
+			]
+		},
+		{
+			"rank": 7,
+			"waku": "枠4青",
+			"umaban": 6,
+			"horse": "ヤマノグリッターズ",
+			"age": "牡5",
+			"weight": "60.0",
+			"jockey": "五十嵐 雄祐",
+			"time": "3:30.0",
+			"margin": "１",
+			"h_weight": 498,
+			"h_weight_zougen": -4,
+			"f_time": "13.4",
+			"trainer": "松山 将樹",
+			"pop": "13",
+			"corner": [
+				3,
+				3,
+				3,
+				4
+			]
+		},
+		{
+			"rank": 8,
+			"waku": "枠3赤",
+			"umaban": 4,
+			"horse": "アトラクティーボ",
+			"age": "牡4",
+			"weight": "60.0",
+			"jockey": "石神 深一",
+			"time": "3:30.0",
+			"margin": "ハナ",
+			"h_weight": 534,
+			"h_weight_zougen": 2,
+			"f_time": "13.4",
+			"trainer": "武藤 善則",
+			"pop": "7",
+			"corner": [
+				6,
+				6,
+				7,
+				7
+			]
+		},
+		{
+			"rank": 9,
+			"waku": "枠8桃",
+			"umaban": 13,
+			"horse": "グレートバローズ",
+			"age": "牡6",
+			"weight": "60.0",
+			"jockey": "森 一馬",
+			"time": "3:31.7",
+			"margin": "１０",
+			"h_weight": 482,
+			"h_weight_zougen": -6,
+			"f_time": "13.5",
+			"trainer": "辻野 泰之",
+			"pop": "5",
+			"corner": [
+				9,
+				9,
+				10,
+				10
+			]
+		},
+		{
+			"rank": 10,
+			"waku": "枠5黄",
+			"umaban": 8,
+			"horse": "エコロデュエル",
+			"age": "牡4",
+			"weight": "60.0",
+			"jockey": "草野 太郎",
+			"time": "3:31.7",
+			"margin": "クビ",
+			"h_weight": 472,
+			"h_weight_zougen": 4,
+			"f_time": "13.5",
+			"trainer": "岩戸 孝樹",
+			"pop": "2",
+			"corner": [
+				11,
+				11,
+				11,
+				11
+			]
+		},
+		{
+			"rank": 11,
+			"waku": "枠5黄",
+			"umaban": 7,
+			"horse": "ショウナンアーチー",
+			"age": "牡5",
+			"weight": "60.0",
+			"jockey": "中村 将之",
+			"time": "3:31.8",
+			"margin": "クビ",
+			"h_weight": 514,
+			"h_weight_zougen": 14,
+			"f_time": "13.5",
+			"trainer": "松下 武士",
+			"pop": "6",
+			"corner": [
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"rank": 12,
+			"waku": "枠4青",
+			"umaban": 5,
+			"horse": "タマモワカムシャ",
+			"age": "せん4",
+			"weight": "60.0",
+			"jockey": "大江原 圭",
+			"time": "3:32.9",
+			"margin": "７",
+			"h_weight": 468,
+			"h_weight_zougen": 4,
+			"f_time": "13.6",
+			"trainer": "川村 禎彦",
+			"pop": "14",
+			"corner": [
+				12,
+				12,
+				12,
+				11
+			]
+		},
+		{
+			"rank": 13,
+			"waku": "枠7橙",
+			"umaban": 12,
+			"horse": "テイエムクロムシャ",
+			"age": "牡7",
+			"weight": "60.0",
+			"jockey": "黒岩 悠",
+			"time": "3:33.3",
+			"margin": "２",
+			"h_weight": 494,
+			"h_weight_zougen": 10,
+			"f_time": "13.6",
+			"trainer": "鈴木 孝志",
+			"pop": "11",
+			"corner": [
+				13,
+				13,
+				12,
+				13
+			]
+		},
+		{
+			"rank": 14,
+			"waku": "枠6緑",
+			"umaban": 10,
+			"horse": "アドマイヤアルバ",
+			"age": "せん8",
+			"weight": "60.0",
+			"jockey": "上野 翔",
+			"time": "3:35.7",
+			"margin": "大差",
+			"h_weight": 476,
+			"h_weight_zougen": 2,
+			"f_time": "13.7",
+			"trainer": "堀内 岳志",
+			"pop": "9",
+			"corner": [
+				14,
+				14,
+				14,
+				14
+			]
+		}
+	]
+}
