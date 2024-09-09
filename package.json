@@ -12,10 +12,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tensorflow/tfjs-node": "^4.20.0",
-    "@tensorflow/tfjs-node-gpu": "^4.20.0",
+    "@tensorflow/tfjs-node": "^4.21.0",
+    "@tensorflow/tfjs-node-gpu": "^4.21.0",
     "@types/bun": "latest",
     "@types/jsdom": "^21.1.7",
+    "@types/webgl2": "^0.0.11",
     "bun": "^1.1.24",
     "iconv-lite": "^0.6.3",
     "jsdom": "^25.0.0"

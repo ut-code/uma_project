@@ -1,0 +1,13 @@
+
+----------2024年9月9日(月) 11時12分12.437秒----------
+TypeError: Cannot read properties of undefined (reading 'tensor2d')
+    at AiClient.preprocessData (E:\GitHub\uma_project\utils\ai\index.ts:66:24)
+    at AiClient.<anonymous> (E:\GitHub\uma_project\utils\ai\index.ts:18:34)
+    at Generator.next (<anonymous>)
+    at E:\GitHub\uma_project\utils\ai\index.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\GitHub\uma_project\utils\ai\index.ts:4:12)
+    at AiClient.GenerateModel (E:\GitHub\uma_project\utils\ai\index.ts:23:16)
+    at E:\GitHub\uma_project\run\ai.ts:5:14
+    at Generator.next (<anonymous>)
+    at E:\GitHub\uma_project\run\ai.ts:8:71
